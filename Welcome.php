@@ -27,6 +27,7 @@
   
    
 <?php
+//require connection here.
 require "connection.php";
 
 if(isset($_POST['bottom'])){
