@@ -1,0 +1,39 @@
+
+html{font-family:sarif;
+}
+body{
+	margin:0;
+	padding:0;
+	border-radius:none;
+	height:100%;
+	}
+	
+	.container{
+   width:80%;
+	border:none;
+	 background-color:lightblue;
+     color:#FFF;
+     text-align:center;
+	 margin-top:4em;
+	 margin-bottom:14px;
+}
+ form{
+	 text-align:center;
+ }
+hr{
+	border:2px  solid black;
+	width:100%;
+}
+label{
+	color:black;
+}
+p{
+	color:indigo;
+	font-style:italic;
+}
+#bottom{
+	padding:4px 30px 4px 30px;
+	color:yellow;
+	margin-bottom:7px;
+	background-color:blue;
+}

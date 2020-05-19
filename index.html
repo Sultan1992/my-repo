@@ -1,0 +1,36 @@
+  
+<!DOCTYPE html>
+<head>
+    <title>log in page </title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<?php include 'header.html';?> 
+ <hr></hr>
+<p><a href="index.html">Already a member? Please sign in</a></p>
+    </span><?php echo $error ?></span>
+  <form id="login"action ="indexResponse.php" method="POST">
+   <div class="form-group">
+   <label for="user">E-mail</label>
+   <input type ="text" name="email" class="form-control">
+   </div>
+   <div class="form-group">
+   <label for="user">Password</label>
+   <input type ="password" name="password" class="form-control">
+   </div>
+   <button type="submit" name="login"id="bottom">Enter</button>
+  <p style="color:red;">Not a member?<a href="newMember.html">Create an account</a></p>
+    </form>
+	<hr></hr>
+	  <?php
+ include 'footer.html';
+ ?>
+  </div>
+ 
+</body>
+</html>
