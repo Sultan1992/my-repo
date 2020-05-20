@@ -72,7 +72,6 @@ if(isset($_POST['bottom'])){
      <p><input type="submit" Name ="member" value="View all members"class="submit btn-success"id="bottom"></p>	
  </form>
  <?php
-//require "connection.php";
 
 if(isset($_POST['member'])){
 	
